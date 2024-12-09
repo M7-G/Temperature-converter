@@ -1,0 +1,17 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="firstproject.css">
+    <link rel="stylesheet" type="text/Javascript" href="firstproject.css">
+</head>
+<body>
+    <div class="converter">
+        <h2>Temperature Converter</h2>
+        <label for="celsiusInput">Enter Celsius temperature:</label>
+        <input type="number" id="celsiusInput" step="0.01" placeholder="Enter temperature" />
+        <button onclick="convertTemperature()">Convert</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
